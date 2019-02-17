@@ -1,2 +1,2 @@
 # zoeysnowflying
-portfolio website for Zoey
+personal website for Zoey
