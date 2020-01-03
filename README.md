@@ -1,5 +1,3 @@
-# zoeysnowflying
-personal website for Zoey
-<div>
-<a href="https://victorweifreelancer.github.io/zoeysnowflying">https://victorweifreelancer.github.io/zoeysnowflying/</a>
-</div>
+# Project Euler 100
+To record problem solutions of Project Euler 100
+
