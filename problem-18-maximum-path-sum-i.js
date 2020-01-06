@@ -1,7 +1,8 @@
 function maximumPathSumI(triangle) {
   // Good luck!
   //make a copy so that the function is pure;
-  var copyTriangle = [...triangle];
+  var copyTriangle = JSON.parse(JSON.stringify(triangle));
+  // var copyTriangle = [...triangle];
   var dim = triangle.length;
   for(var i= dim - 1; i>0; i--){
     for(var j = 0;j < i; j++){
@@ -16,4 +17,5 @@ const testTriangle = [[3, 0, 0, 0],
                       [2, 4, 6, 0],
                       [8, 5, 9, 3]];
 
-// maximumPathSumI(testTriangle);
+maximumPathSumI(testTriangle);
+// console.log(testTriangle);
